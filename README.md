@@ -43,7 +43,7 @@ go run cmd/entity-server/main.go
 
 From root project run the script:
 ```
-sh ./scripts/run.dev.sh
+bash ./scripts/run.dev.sh
 ```
 
 
