@@ -34,7 +34,7 @@ func GetWager(c *gin.Context) {
 		PageNum:  offset,
 		PageSize: limit,
 	}
-	list, err := service.Get()
+	list, err := service.GetWager()
 	if err != nil {
 		appG.Response(http.StatusBadRequest, false, err.Error(), nil, nil)
 		return
