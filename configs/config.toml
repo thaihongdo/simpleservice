@@ -1,0 +1,11 @@
+env_prefix=""
+server_port=8080
+db_connection = "storage/simpleservice.db"
+default_page_num = 1
+default_page_limit = 10
+
+[LogConfig]
+format = "json"
+output = "file"
+path = "logs"
+expired = 3
